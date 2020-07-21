@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang= " en">
+  <head>
+    <meta charset= "UTF-8" />
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel= "stylesheet" href= " style.css" >
+<body>
+    <div id= "container">
+        <formid="form">
+        <p>Size of your box</p>
+        <div class = "radio_buttons_container">
+            <input type="radio" name="size" id="small" value ="small" checked>
+            <label for= " small"> Small</label> <br>
+            <input type="radio" name="size" id="large" value ="large">
+            <label for= " large"> Large</label> <br>
+            <input type="radio" name="size" id="average" value ="average">
+            <label for= " average"> Average</label>
+        </div>
+
+        <p> Topping for your box</p>
+        <div class ="checkbox_container">
+        <div class = "input_checkbox">
+          
+            <input type="checkbox" name="add" id="pig" value ="pig">
+            <label for=" pig"> Pork </label> <br>
+
+            <input type="checkbox" name="add" id="meet" value ="meet">
+            <label for="meet">Beef </label> <br>
+       
+            <input type="checkbox" name="add" id="chicken" value ="chicken">
+            <label for="chicken">Chicken </label> 
+            
+        </div>
+        
+    </div>
+
+        <p>Do you want to add something?</p>
+        <div class="input_checkbox">  
+                    <input type="checkbox" name="extras" id="bread_crumbs" value="bread_crumbs" >Bread crumbs <br>
+                    <input type="checkbox" name="extras" id ="extra_sauce" value="extra_sauce">Extra sauce       
+        </div>
+         <input type="submit" id = "calculate" value="Calculate">
+        
+        </form>
+    <!-- CALCULATOR end -->
+    <!-- TIPS start -->
+    <div id="expense">
+      <span id="price">0.00</span><sup>$</sup> <br>
+      <span id="calories">00</span> <small>calories</small>
+    </div>
+    <!-- TIPS end -->
+  </div>
+  <script src="menu.js"></script>
+</body>
+</html>

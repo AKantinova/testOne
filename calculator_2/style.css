@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  body {
+    font-family: Roboto;
+    height: 200px;
+    background: repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px);
+    display: flex;
+    justify-content: center;
+  }
+
+
+ .radio_buttons_container {
+    padding-left: 30px;
+    font-size: 18px;
+   
+  }
+ .input_checkbox{
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .checkbox_container div{display:inline-block;}
+  
+  #container {
+    height: 700px;
+    width: 400px;
+    margin: 100px auto;
+    background:#dde9f1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+  p {
+    padding-left: 20px;
+    font-size: 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    background:#364bc0;
+    text-align: center;
+  }
+  
+  #calculate {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #1d1517;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  #calculate:hover {
+    background: #263653;
+    border-bottom-color: #111;;
+  }
+  #calculate:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #expense{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+   
+  }
+  
+  #expense sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  #expense small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
