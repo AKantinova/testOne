@@ -12,7 +12,7 @@ var ChinaBox = {
     },
     average:{
     price: 350,
-     calories: 400,
+     calories: 300,
     },
     large: {
     price: 380,

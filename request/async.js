@@ -1,4 +1,4 @@
-const request = reguire ('request');
+const request = require ('request');
 
 request.get(
     "https://api.opendota.com/api/proMatches",
