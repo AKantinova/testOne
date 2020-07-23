@@ -10,7 +10,7 @@ body {
   
   h1 {
     text-transform: uppercase;
-    background: #86a8e7;
+    background: #813654;
     color: white;
     margin: 0;
     padding: 10px 28px;
@@ -29,9 +29,9 @@ body {
   }
   input:focus {
     background: #edf1f5;
-    border: 3px solid #86a8e7;
+    border: 3px solid #813654;
     outline: none;
-    color: #86a8e7;
+    color: #813654;
   }
   
   span {
@@ -41,134 +41,133 @@ body {
     width: 0;
     opacity: 0;
     -webkit-transition: 0.3s;
-    transition: 0.3s linear;
-  }
+    transition: 0.3s linear; }
   
   i {
-    cursor: pointer;
-  }
+    cursor: pointer; }
+  
   button {
-    background-color: #86a8e7; /*Green */
+    background-color: #813654;
+    /* Green */
     border: none;
-    color:white;
-    padding:8px 20px;
-    text-align:center;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
     border-radius: 4px;
     font-family: Bad Script;
-    -webkit-transition-duration: 0.4s; /* Safari*/
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
-    cursor: pointer;
-  }
+    cursor: pointer; }
+  
   button:hover {
     background-color: white;
     color: black;
-    border: 2px solid #86a8e7;
-  }
+    border: 2px solid #813654; }
   
   #buttons {
     display: inline-block;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 13%;
     position: absolute;
-    bottom: 5px;
-  }
+    bottom: 5px; }
+  
   #todo {
     margin: 0 auto;
     box-shadow: 0 0 1em black;
     max-width: 400px;
     height: 100%;
     background: white;
-    position: relative;
-  }
-  #overlay {
+    position: relative; }
+  
+  .overlay {
     height: 0;
     width: 100%;
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     background-color: rgba(0, 0, 0, 0.7);
     overflow-x: hidden;
     transition: 0.5s;
-    -webkit-transition: 0.5s;
-  }
-
+    -webkit-transition: 0.5s; }
   
-  #overlay .closebtn {
+  .overlay .closebtn {
     position: absolute;
     top: 15px;
     right: 40px;
     font-size: 60px;
-    color: #86a8e7;
-    cursor: pointer;
-  }
-  #overlay li {
+    color: #813654;
+    cursor: pointer; }
+  
+  .overlay li {
     padding: 8px;
     list-style-type: circle;
     font-size: 30px;
     color: #818181;
-    display: block;
-  }
+    display: block; }
+  
+  .cat-facts li {
+    padding: 50px;
+    font-size: 30px;
+    color: #929191;
+    display: block; }
+  
   .todos {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-  }
+    padding: 0; }
+  
   .todos li {
-    background: #f7f7f7;
+    background: #EDE5D0;
     height: 50px;
     line-height: 50px;
     cursor: pointer;
-    font-size: 20px;
-  }
+    font-size: 20px; }
+  
   .todos li:nth-child(2n) {
-    background: #edf1f5;
-  }
+    background: #A65462; }
+  
   .todos li:hover span {
     width: 50px;
-    opacity: 1;
-    margin-left: 5px;
-  }
+    opacity: 1.0;
+    margin-left: 5px; }
+  
   .display {
     display: none;
-    transition: 0.3s linear;
-  }
+    transition: 0.3s linear; }
+  
   .checked {
-    color: gray;
-    text-decoration: line-through;
-  }
+    color: #541E3E;
+    text-decoration: line-through; }
   
   .fa-pencil-alt {
     float: right;
-    padding-top: 8px;
-  }
+    padding-top: 8px; }
+  
   .fa-trash-alt {
-    color: #7f7fd5;
-  }
+    color: #541E3E; }
+  
   .tips {
     position: relative;
     top: 20%;
     width: 100%;
     text-align: center;
-    margin-top: 25px;
-  }
+    margin-top: 25px; }
   
-  
+  /*  if screen size less than 450px, resize tips lists and close btn so they don't overlap */
   @media screen and (max-height: 450px) {
     .overlay a {
-        font-size: 20px
-    }
+      font-size: 20px; }
     .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-    #todo{
-        width:100%;
-        height:100%;
-    }
-  }
+      font-size: 40px;
+      top: 15px;
+      right: 35px; }
+    #todo {
+      width: 100%;
+      height: 100%; } }
+  
